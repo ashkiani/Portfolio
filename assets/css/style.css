@@ -1,0 +1,27 @@
+.navbar-brand{
+  color: white;
+  background-color: #4aaaa5;
+}
+li a:hover {
+    background-color: #111;
+}
+body{
+  
+  background-image: url('assets/images/img_bckgrnd.png');
+}
+p{
+  
+  margin: 10px;
+}
+.Main_Title{
+  color: #4aaaa5;
+  margin:20px;
+}
+footer{
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  height: 50px;
+  border-top: 10px solid #4aaaa5;
+}
+
