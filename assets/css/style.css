@@ -27,4 +27,7 @@ footer{
 img{
   border: 1px black solid;
 }
+form{
+  width: 100%;
+}
 
