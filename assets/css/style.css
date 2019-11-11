@@ -24,4 +24,7 @@ footer{
   height: 50px;
   border-top: 10px solid #4aaaa5;
 }
+img{
+  border: 1px black solid;
+}
 
