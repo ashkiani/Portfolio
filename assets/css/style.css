@@ -1,37 +1,4 @@
-.navbar-brand{
-  color: white;
-  background-color: #4aaaa5;
-}
-li a:hover {
-    background-color: darkgray;
-}
-body{
-  
-  background-image: url('assets/images/img_bckgrnd.png');
-}
-p{
-  
-  margin: 10px;
-}
-h1{
-  color: #4aaaa5;
-}
-.Main_Title{
-  color: #4aaaa5;
-  margin:20px;
-}
-footer{
-  background-color: #666666;
-  color: white;
-  text-align: center;
-  height: 50px;
-  border-top: 10px solid #4aaaa5;
-}
-img{
-  border: 1px black solid;
-}
-form{
-  width: 100%;
-  margin: 10px;
-}
-
+/* li a:hover {
+  background-color: white;
+  color: red;
+} */

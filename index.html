@@ -1,64 +1,81 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Homework: Bootstrap-Portfolio - About Me">
-        <meta name="author" content="Siavash Ashkiani">
-        <title>Homework: Bootstrap-Portfolio - Siavash</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-    <body>
-        <header>
 
-            <div class="container">
-                <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-                        <a href="/" class="navbar-brand d-flex w-20 mr-auto" >Siavash Ashkiani</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-                                                        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">About Me</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                    </div>
-        </header>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio - About Me">
+    <meta name="author" content="Siavash Ashkiani">
+    <title>Portfolio - Siavash</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-        
+<body>
+    <header>
         <div class="container">
-                <div class="row">
-                        <div class="col-md-12">
-                                <h1>About Me</h1>
-                                <hr>
-                        </div>
-                        
-                    </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="assets/images/img_Siavash.jpg" alt="Siavash picture" height="200" width="200">
-                    </div>
-                    <div class="col-md-9">
-                        <p>
-                            My name is Siavash Ashkiani. I’m a Software Engineer with with solid background in database systems and software design, implementation and testing. Outside of work, I enjoy woodworking.
-                        </p>
-                    </div>
-                        
+            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center  bg-info text-white my-2">
+                <div class="p-2 w-90">
+                    <h2>Siavash Ashkiani</h2>
                 </div>
-                <br>
-            </div>
-        <div class="fixed-bottom">
-            <footer>copyright</footer>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-10" id="collapsingNavbar3">
+                    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        
-    </body>
+    </header>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>About Me</h1>
+                <hr>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img class="border border-dark" src="assets/images/img_Siavash.jpg" alt="Siavash picture" height="200"
+                    width="200">
+            </div>
+            <div class="col-md-9">
+                <p>
+                    My name is Siavash Ashkiani. I’m a Software Engineer with with solid background in database systems
+                    and software design, implementation and testing. Outside of work, I enjoy woodworking.
+                </p>
+            </div>
+
+        </div>
+        <br>
+    </div>
+    <div class="fixed-bottom bg-info text-white text-center">
+        <small>&copy; Copyright 2019, Siavash Ashkiani</small>
+    </div>
+
+</body>
+
 </html>
