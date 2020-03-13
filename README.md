@@ -7,7 +7,7 @@
 ## Description
 A basic portfolio website.
 
-##Features
+## Features
 ​
 * About Me section with links to: My Resume, LinkedIn page, GitHub profile and email address
 * Portfolio page with links to projects
