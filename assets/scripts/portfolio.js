@@ -11,7 +11,7 @@ $(document).ready(function () {
     addProject("Password Generator", "assets/images/PasswordGenerator.PNG", "Password Generator App", "https://ashkiani.github.io/Password-Generator/", "https://github.com/ashkiani/Password-Generator", "https://github.com/ashkiani/Password-Generator/blob/master/README.md");
     addProject("Day Planner", "assets/images/DayPlanner.PNG", "Day Planner App", "https://ashkiani.github.io/DayPlanner/", "https://github.com/ashkiani/DayPlanner", "https://github.com/ashkiani/DayPlanner/blob/master/README.md");
     addProject("GOAT", "assets/images/GOAT.PNG", "GOAT App", "https://ashkiani.github.io/GOAT/home.html", "https://github.com/ashkiani/GOAT", "https://github.com/ashkiani/GOAT/blob/master/README.md");
-    //addProject("", "", "", "", "","");
+    addProject("Virtual-Fair", "assets/images/VirtualFair.PNG", "Virtual Fair App", "https://aqueous-cliffs-33447.herokuapp.com/", "https://github.com/ashkiani/Virtual-Fair", "https://github.com/ashkiani/Virtual-Fair/blob/master/README.md");
 
     function renderProjects() {
         let projectsEl = $(".projects");
@@ -46,7 +46,6 @@ $(document).ready(function () {
             rowDiv.append(brEl);
             projectsEl.append(rowDiv);
         }
-       
     }
 
     renderProjects()
